@@ -96,7 +96,22 @@ var work =
                                 Wrote custom translator to import legacy CAD ASCII data and generate an Allegro board file to be used by Signal Integrity Engineer <br> \
                                 to allow board to board simulation of new and old designs within in a system. <br> \
                                 Provided Application support for all ECAD Tools."
-            }
+            },
+		    {
+				"employer": "MOTOROLA PAGING DIV.",
+				"title": "Member Technical Staff",
+				"location": "Boynton Beach, Florida",
+				"dates": "1990 - 1999",
+				"description": " Designed complex multi-layer HDI printed circuit boards."
+			},
+			 {
+				"employer": "CIRCUIT DESIGN SERVICES",
+				"title": "ECAD Design Manager",
+				"location": "Danbury, Connecticut",
+				"dates": "1985 - 1990",
+				"description": "Managed all ECAD design services."
+			}
+			
 		],
 		"display": function () {
 		    var rh = resHelper;
