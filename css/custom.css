@@ -1,0 +1,167 @@
+﻿/*
+    custom.css  -  overrides style.css to give new look and feel to resume
+*/
+
+/*
+    overrides for html tags
+*/
+html, body {
+    height:100%;
+}
+
+h1 {
+  font-size: 40px;
+  color: #FFFFFF;
+  line-height: 48px;
+  display: inline;
+}
+
+
+/*
+    overrides for existing classes and new classes added through javascript
+*/
+
+#main {
+   min-height:95%;
+   position:relative;
+   background-color: #4169E1;
+}
+
+#body {
+    padding-bottom: 110px;
+}
+
+#header span {
+    font-weight:bold;
+}
+
+.section-bar {
+    height: 45px;
+    background-color: #696969;
+    vertical-align:middle;  
+    padding-bottom:0;
+    padding-right: 40px;
+    margin:0;  
+}
+
+#skills li {
+    opacity: 0;
+}
+
+.welcome-message{
+    display:block;
+    padding: 45px 15px 30px 15px;
+}
+
+.orange {
+  background-color: #23238E;
+}
+
+.typcn-bar {
+    float:right;
+    color: #FFFFFF;
+    font-size:35px;
+    margin: 0;
+    padding:0;
+}
+
+.text{
+    float:left;
+    line-height: 40px;
+    padding:0 20px 0 20px;
+    margin:0;
+    vertical-align:middle; 
+    color:#FFFFFF; 
+}
+
+#workExperience {
+    padding-bottom: 0;
+}
+
+.work-entry {
+    overflow:hidden;
+}
+
+.project-entry {
+    overflow:hidden;
+}
+
+.education-entry {
+    overflow:hidden;
+}
+
+.school-head {
+    width:100%;
+    float: left;
+    padding: 0;
+}
+
+.online a {
+    margin-top: 5px;
+}
+.shead h3{
+    padding: 0 0 15px 0;
+    float: left;
+}
+
+#map {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:10px 0 10px 0;
+}
+
+#mapDiv {
+    height: auto;
+    padding-bottom:0;
+}
+
+#education {
+    padding-bottom: 0;
+}
+.gray {
+  background-color:  #F0FFFF;
+  padding-bottom: 0;
+}
+
+.dark-gray {
+  background-color: #4169E1;
+}
+
+#header {
+  background-color: #4169E1;
+}
+
+.orange-text {
+  color: #000000;
+  font-size: 64px;
+}
+
+#skillsH3 {
+    color: #000000;
+}
+
+#letsConnect h2 {
+    color:#FFFFFF;
+}
+
+#letsConnect {
+   position:absolute;
+   bottom:0;
+   height : 110px;
+   width:100%;
+}
+
+footer-icon{
+    font-size:64px;
+}
+
+#footerContacts{
+     background-color: #4169E1; 
+}
+
+#footerContacts li {
+    line-height: 100px;
+    vertical-align:middle; 
+    color:#FFFFFF;
+    background-color: #4169E1; 
+}
